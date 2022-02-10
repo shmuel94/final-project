@@ -1,0 +1,156 @@
+{"data":[
+{
+    "id":1,
+    "name":"500 ml shaving gel with a male fragrance RedOne",
+    "img":"https://i.ibb.co/ZxwYbxr/500-ml-shaving-gel-with-a-male-fragrance-Red-One.jpg",
+    "price":"49 NIS"
+},
+{
+    "id":2,
+    "name":"Drama Roller for the beard for opening pores",
+    "img":"https://i.ibb.co/R9ybqJS/Drama-Roller-for-the-beard-for-opening-pores.jpg",
+    "price":"28 NIS"
+},
+{
+    "id":3,
+    "name":"Hair wax - extra strong",
+    "img":"https://i.ibb.co/d0G8BQ1/Hair-wax-extra-strong.jpg",
+    "price":"49 NIS"
+},
+{
+    "id":4,
+    "name":"Clay for hair styling",
+    "img":"https://i.ibb.co/5R51KLt/Clay-for-hair-styling.jpg",
+    "price":"70 NIS"
+},
+{
+    "id":5,
+    "name":"Professional Sassonic ESE1002 Shaver and Finisher",
+    "img":"https://i.ibb.co/ngypr2N/Professional-rechargeable-haircut-machine-for-finishing-with-Wahl-8171-T-knife.png",
+    "price":"349 NIS"
+},
+{
+    "id":6,
+    "name":"BarberPRO CutClean Z300 Barber Pro haircut machine",
+    "img":"https://i.ibb.co/7SSbHKW/Barber-PRO-Cut-Clean-Z300-Barber-Pro-haircut-machine.jpg",
+    "price":"299 NIS"
+},
+{
+    "id":7,
+    "name":"Wahl Cordless Magic Clip 81448 haircut machine",
+    "img":"https://i.ibb.co/J3TZt7q/Wahl-Cordless-Magic-Clip-81448-haircut-machine.png",
+    "price":"570 NIS"
+},
+{
+    "id":8,
+    "name":"Professional rechargeable haircut machine for finishing with Wahl 8171 T knife",
+    "img":"https://i.ibb.co/1LGkb2z/Professional-Sassonic-ESE1002-Shaver-and-Finisher.jpg",
+    "price":"550 NIS"
+},
+{
+    "id":9,
+    "name":"Sponge for frizzy and afro hair styling BarberPRO Q126",
+    "img":"https://i.ibb.co/NKP8nmM/Sponge-for-frizzy-and-afro-hair-styling-Barber-PRO-Q126.jpg",
+    "price":"29 NIS"
+},
+{
+    "id":10,
+    "name":"Super Hold Schwarzkopf Silhouette Spray",
+    "img":"https://i.ibb.co/NYSCm9Z/Super-Hold-Schwarzkopf-Silhouette-Spray.jpg",
+    "price":"55 NIS"
+},
+{
+    "id":11,
+    "name":"Hair clipper for nose and ears Sassonic Sassonic ESE011",
+    "img":"https://i.ibb.co/bQ2cb5r/Hair-clipper-for-nose-and-ears-Sassonic-Sassonic-ESE011.jpg",
+    "price":"85 NIS"
+},
+{
+    "id":12,
+    "name":"Redone Keratin Beard Oil",
+    "img":"https://i.ibb.co/K7Sm9yn/Redone-Keratin-Beard-Oil.jpg",
+    "price":"79 NIS"
+},
+{
+    "id":13,
+    "staffName":"aviel",
+    "name":"staff img",
+    "img":"https://i.ibb.co/ryMcBhS/aviel.jpg",
+    "facebook":"https://www.facebook.com/DJ-WONDEMAGEN-568775270152179/",
+    "instagram":"https://instagram.com/djwondemagen?utm_medium=copy_link"
+},
+{
+    "id":14,
+    "staffName":"osher",
+    "name":"staff img",
+    "img":"https://i.ibb.co/sjwPqv7/osher.png",
+    "facebook":"https://www.facebook.com/profile.php?id=100002286890931",
+    "instagram":"https://instagram.com/osher_wondemagen?utm_medium=copy_link"
+},
+{
+    "id":15,
+    "name":"slider img",
+    "img":"https://i.ibb.co/d7Q5dVz/slider-pic-1.jpg"
+},
+{
+    "id":16,
+    "name":"slider img",
+    "img":"https://i.ibb.co/SQmRHjS/slider-pic-2.jpg"
+},
+{
+    "id":17,
+    "name":"slider img",
+    "img":"https://i.ibb.co/SdLpGsK/slider-pic-3.jpg"
+},
+{
+    "id":18,
+    "name":"slider img",
+    "img":"https://i.ibb.co/pyzLbpj/slider-pic-4.jpg"
+},
+{
+    "id":19,
+    "name":"slider img",
+    "img":"https://i.ibb.co/g4GhBLF/slider-pic-5.jpg"
+},
+{
+    "id":20,
+    "name":"gallery",
+    "img":"https://i.ibb.co/tmWjrcQ/gallery-pic-1.jpg"
+},
+{
+    "id":21,
+    "name":"gallery",
+    "img":"https://i.ibb.co/094VLGS/gallery-pic-2.jpg"
+},
+{
+    "id":22,
+    "name":"gallery",
+    "img":"https://i.ibb.co/ZmNV2xb/gallery-pic-3.jpg"
+},
+{
+    "id":23,
+    "name":"gallery",
+    "img":"https://i.ibb.co/cvtN2Vm/gallery-pic-4.jpg"
+},
+{
+    "id":24,
+    "name":"gallery",
+    "img":"https://i.ibb.co/nDGZHmX/gallery-pic-5.jpg"
+},
+{
+    "id":25,
+    "name":"gallery",
+    "img":"https://i.ibb.co/hLtQ9Dx/gallery-pic-6.jpg"
+},
+{
+    "id":26,
+    "name":"gallery",
+    "img":"https://i.ibb.co/NTcYNNR/gallery-pic-7.jpg"
+},
+{
+    "id":27,
+    "name":"gallery",
+    "img":"https://i.ibb.co/wBFyf2w/gallery-pic-8.jpg"
+}
+]
+}
