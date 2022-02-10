@@ -21,7 +21,7 @@ const Staff = () => {
       })
   }, [])
 
-  const element = staffInfo.map((info, i) => {
+  const element = Array.isArray(staffInfo)? staffInfo.map((info, i) => {
     return (
       <div className='staffName' key={i}>
         <h4>{info.name}</h4>
@@ -37,7 +37,7 @@ const Staff = () => {
         </div>
       </div>
     )
-  })
+  }):[]
 
   return (
     <>

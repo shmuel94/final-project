@@ -21,7 +21,7 @@ const Products = () => {
       })
   }, [])
 
-  const element = products.map((product, i) => {
+  const element = Array.isArray(products) ? products.map((product, i) => {
     return (
       <div key={i}>
         <img style={{ width: '150px', height: '150px' }} src={product.img} />
@@ -29,7 +29,7 @@ const Products = () => {
         <h4>{product.price}</h4>
       </div>
     )
-  })
+  }) :[]
 
   return (
     <div>

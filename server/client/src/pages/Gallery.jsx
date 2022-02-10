@@ -22,15 +22,16 @@ export default function Gallery () {
       })
   }, [])
 
-  const data = gallery
-    ? gallery.map((gallery, i) => {
+
+  const data = Array.isArray(gallery) 
+    ? gallery.map((galleryImg, i) => {
         return (
           <div key={i}>
-            <img id='galleryImg' src={gallery.img} />
+            <img id='galleryImg' src={galleryImg.img} />
           </div>
         )
       })
-    : ''
+    : []
 
   return (
     <div>

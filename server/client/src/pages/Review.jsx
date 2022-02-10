@@ -61,7 +61,7 @@ export default function Review ({ auth }) {
   if (!auth) {
     return <Redirect to='/' />
   }
-  const data = userReview
+  const data = Array.isArray(userReview)
     ? userReview.map((review, i) => {
         return (
           <div key={i}>
@@ -73,7 +73,7 @@ export default function Review ({ auth }) {
           </div>
         )
       })
-    : ''
+    : []
   return (
     <div>
       <h4 className='logOrReg'>User Reviews</h4>
@@ -142,7 +142,7 @@ export default function Review ({ auth }) {
           <th>barber name</th>
           <th>review</th>
         </tr>
-        {userReview
+        {Array.isArray(userReview)
           ? userReview.map((review, i) => {
               return (
                 <tr key={i}>
@@ -152,7 +152,7 @@ export default function Review ({ auth }) {
                 </tr>
               )
             })
-          : ''}
+          : []}
       </table>
     </div>
   )
