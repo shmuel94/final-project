@@ -21,15 +21,20 @@ const Products = () => {
       })
   }, [])
 
-  const element = Array.isArray(products) ? products.map((product, i) => {
-    return (
-      <div key={i}>
-        <img style={{ width: '150px', height: '150px' }} src={product.img} />
-        <h4>{product.name}</h4>
-        <h4>{product.price}</h4>
-      </div>
-    )
-  }) :[]
+  const element = Array.isArray(products)
+    ? products.map((product, i) => {
+        return (
+          <div key={i}>
+            <img
+              style={{ width: '150px', height: '150px' }}
+              src={product.img}
+            />
+            <h4>{product.name}</h4>
+            <h4>{product.price}</h4>
+          </div>
+        )
+      })
+    : []
 
   return (
     <div>

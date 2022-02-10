@@ -2,7 +2,7 @@ require("dotenv").config();
 const MongoDB = require("mongodb"),
     MongoClient = MongoDB.MongoClient,
     mongoURL = process.env.MONGOURL
-    dbName = "wondemagen_barbershop",
+dbName = "wondemagen_barbershop",
     sliderCollection = "slider_images",
     staffCollection = "staff",
     productsCollection = "products",

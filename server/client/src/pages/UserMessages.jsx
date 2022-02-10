@@ -49,7 +49,7 @@ export default function UserMessages ({ auth }) {
       })
   }
 
-  const data =Array.isArray(userMessage) 
+  const data = Array.isArray(userMessage)
     ? userMessage.map((message, i) => {
         return (
           <div key={i}>
@@ -86,7 +86,7 @@ export default function UserMessages ({ auth }) {
               <th>phone number</th>
               <th>message</th>
             </tr>
-            {Array.isArray(userMessage) 
+            {Array.isArray(userMessage)
               ? userMessage.map((message, i) => {
                   return (
                     <tr key={i}>

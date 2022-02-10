@@ -33,11 +33,11 @@ app.get("/staff", (req, res) => {
   utils.getStaffImages(req, res);
 });
 
-app.get("/products", (req, res) =>{
+app.get("/products", (req, res) => {
   utils.getProducts(req, res);
 });
 
-app.get("/gallery", (req, res) =>{
+app.get("/gallery", (req, res) => {
   utils.getGalleryImgs(req, res);
 });
 

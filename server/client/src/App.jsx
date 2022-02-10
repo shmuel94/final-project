@@ -14,7 +14,6 @@ function App () {
   const [auth, setAuth] = useState(null)
   const AUTH_LOCAL_STORAGE = 'User_Info'
 
-
   useEffect(() => {
     let authStorage = JSON.parse(localStorage.getItem(AUTH_LOCAL_STORAGE))
     return authStorage ? setAuth(authStorage) : null
@@ -68,22 +67,12 @@ function App () {
           <Route
             exact
             path='/Review'
-            render={() => (
-              <Review
-                auth={auth}
-                setAuth={setAuth}
-              />
-            )}
+            render={() => <Review auth={auth} setAuth={setAuth} />}
           />
           <Route
             exact
             path='/UserMessages'
-            render={() => (
-              <UserMessages
-                auth={auth}
-                setAuth={setAuth}
-              />
-            )}
+            render={() => <UserMessages auth={auth} setAuth={setAuth} />}
           />
         </Switch>
         <Route

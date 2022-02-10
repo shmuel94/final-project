@@ -21,23 +21,25 @@ const Staff = () => {
       })
   }, [])
 
-  const element = Array.isArray(staffInfo)? staffInfo.map((info, i) => {
-    return (
-      <div className='staffName' key={i}>
-        <h4>{info.name}</h4>
-        <img src={info.img} />
-        <br />
-        <div className='barberInfo'>
-          <a href={info.facebook} target='_blank'>
-            <img src='https://img.icons8.com/color/48/000000/facebook.png' />
-          </a>
-          <a href={info.instagram} target='_blank'>
-            <img src='https://img.icons8.com/color/48/000000/instagram-new--v2.png' />
-          </a>
-        </div>
-      </div>
-    )
-  }):[]
+  const element = Array.isArray(staffInfo)
+    ? staffInfo.map((info, i) => {
+        return (
+          <div className='staffName' key={i}>
+            <h4>{info.name}</h4>
+            <img src={info.img} />
+            <br />
+            <div className='barberInfo'>
+              <a href={info.facebook} target='_blank'>
+                <img src='https://img.icons8.com/color/48/000000/facebook.png' />
+              </a>
+              <a href={info.instagram} target='_blank'>
+                <img src='https://img.icons8.com/color/48/000000/instagram-new--v2.png' />
+              </a>
+            </div>
+          </div>
+        )
+      })
+    : []
 
   return (
     <>

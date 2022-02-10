@@ -22,8 +22,7 @@ export default function Gallery () {
       })
   }, [])
 
-
-  const data = Array.isArray(gallery) 
+  const data = Array.isArray(gallery)
     ? gallery.map((galleryImg, i) => {
         return (
           <div key={i}>
