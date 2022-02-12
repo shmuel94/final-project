@@ -71,6 +71,15 @@ body {
 .navbar {
   background-color: rgb(255, 255, 255, 0.4);
   height: 26px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+.navbar a {
+  display: inline;
+  padding: 15px;
 }
 
 .regLog {
@@ -404,9 +413,19 @@ h3 {
     margin-right: 25%;
   }
 
+  .navbar a {
+    display: inline;
+    padding: 1px;
+  }
+
 }
 
 @media (max-width: 426px) {
+
+  .navbar a {
+    display: inline;
+    padding: 1.5px;
+  }
 
   .newReview {
     background-color: rgba(255, 255, 255, 0.4);
@@ -479,6 +498,11 @@ h3 {
     background-color: rgba(255, 255, 255, 0.4);
     width: 180px;
     margin-right: 38%;
+  }
+
+  .navbar a {
+    display: inline;
+    padding: 15px;
   }
 
 
