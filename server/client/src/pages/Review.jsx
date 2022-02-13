@@ -13,7 +13,7 @@ export default function Review ({ auth }) {
   const [isLoading, setIsLoading] = useState(false)
 
   const isValid = () => {
-    return fullName.length && barberName.length && review.length
+    return fullName.length && barberName === "aviel"  && review.length || fullName.length && barberName === "osher"  && review.length
   }
 
   const formVerification = () => {
@@ -84,6 +84,7 @@ export default function Review ({ auth }) {
           className='newReview'
           onSubmit={e => {
             e.preventDefault()
+            alert('the review was sent successfully')
             if (isValid()) {
               formVerification()
             }
@@ -123,7 +124,7 @@ export default function Review ({ auth }) {
             className='btn'
             disabled={!disabale}
             type='submit'
-            value={'send message'}
+            value={'send review'}
           />
         </form>
       )}
